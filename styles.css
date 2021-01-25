@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: "anders";
+    src: url("./Fonts/AndersFF/Anders.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+html, body {
+    background-image: url("./assets/background-img.jpg");
+    background-size: contain;
+}
+header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(119, 119, 119, 0.6);
+    background-blend-mode: multiply;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin-bottom: 0;
+    color: white;
+}
+
+header h3 {
+    color: white;
+    margin-top: 8px;
+    padding-left: 100px;
+}
+
+.social-icons {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-icons img{
+    height: 25px;
+    position: absolute;
+    right:10px;
+    top:10px;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+nav ul:first-child{cursor: pointer;}
+
+
+
+.container-div {
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    
+}
+
+.container-div h3 {
+    background-color: #de411c;
+    padding: 1.5rem;
+    text-align: center;
+    color: #ffffff !important;
+}
+
+.container-div h3:hover{cursor: pointer;font-size: 1.5rem;background-color: rgba(211, 111, 30, 0.986);border: black solid;transition-duration: .4s;}
+
+.container-div a {
+    text-decoration: none;
+}
+
+.container-div a:any-link{color: black;}
+
+.f-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-grow: 2;
+}
+
+.s-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-grow: 2;
+}
+
+.f-div h3 {
+    max-width: 300px;
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100vw;
+}
+
+
+.hide-menu {
+    display: none;
+}
+
+.menu-items {
+    color: white;
+    font-weight: bold;
+}
+
+.menu-items a{
+    color: white;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+.card {
+    cursor: pointer;
+    width: 95vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card:hover .image {
+    opacity: 0.3;
+  }
+  
+  .card:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+@media (max-width: 500px) {
+
+    html,body {
+        max-width: 80vw;
+        max-height: 80vh;
+    }
+    .container-div {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+    nav {
+        position: absolute;
+        top: 80px;
+        left: 20px;
+    }
+
+    nav ul {
+        display: inline;
+        list-style: none;
+        
+    }
+
+
+    .social-icons {
+        position: relative;
+        top: 0px;
+        left: 50px;
+    }
+
+    header {
+        width: 97vw;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
