@@ -28,6 +28,7 @@ header {
     width: 100%;
     padding-bottom: 10px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -44,18 +45,15 @@ header h3 {
 .social-icons {
     position:relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
-    background: inherit;
+    
 }
 
 .social-icons img{
     height: 25px;
-    position: absolute;
-    right:10px;
-    top:10px;
-    margin: 10px;
+    margin: 5px 5px;
 }
 
 nav ul {
@@ -72,6 +70,7 @@ nav ul:first-child{cursor: pointer;}
     display: flex;
     justify-content: space-around;
     height: 70vh;
+    margin-top: 20px;
 }
 
 .container-div h3 {
