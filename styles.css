@@ -71,7 +71,6 @@ nav ul:first-child{cursor: pointer;}
     display: flex;
     justify-content: space-around;
     height: 70vh;
-    
 }
 
 .container-div h3 {
@@ -217,7 +216,6 @@ nav a {
     nav ul {
         display: inline;
         list-style: none;
-        
     }
 
     .social-icons {
@@ -238,6 +236,8 @@ nav a {
     .card {
         display: flex;
         flex-direction: column;
+        padding-bottom: 250px;
+        justify-content: flex-start;
     }
 
     .middle {
