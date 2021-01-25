@@ -15,6 +15,10 @@
     font-family: "Raleway";
 }
 
+.marginleft {
+    margin-left: 100px;
+}
+
 html, body {
     background-image: url("./assets/background-img.jpg");
     background-size: contain;
@@ -29,6 +33,10 @@ header {
     padding-bottom: 10px;
     cursor: pointer;
     margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 40px;
 }
 
 header h1 {
