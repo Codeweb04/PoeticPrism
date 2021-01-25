@@ -47,6 +47,7 @@ header h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: inherit;
 }
 
 .social-icons img{
@@ -218,18 +219,12 @@ nav a {
         list-style: none;
     }
 
-    .social-icons {
-        position: relative;
-        top: 0px;
-        left: 50px;
-    }
-
     header {
         width: 97vw;
     }
 
     .image {
-        width: 50%;
+        width: 60%;
         height: auto;
     }
 
