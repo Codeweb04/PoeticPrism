@@ -238,7 +238,7 @@ nav a {
     .card {
         display: flex;
         flex-direction: column;
-        padding-bottom: 250px;
+        padding-bottom: 150px;
         justify-content: flex-start;
     }
 
