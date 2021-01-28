@@ -154,6 +154,17 @@ nav {
 nav a {
     text-decoration: none;
 }
+
+footer {
+    width: 100vw;
+}
+
+footer p {
+    background-color: black;
+    padding: .4rem;
+    color: white;
+    text-align: center;
+}
   
 @media (min-width: 900px) {
     .image {
