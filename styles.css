@@ -158,8 +158,11 @@ nav a {
 }
 
 footer {
-    width: 100vw;
-    position: relative;
+    position: absolute;
+    background-color: #dedede;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
 }
 
 footer p {
